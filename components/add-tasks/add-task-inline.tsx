@@ -57,7 +57,7 @@ export default function AddTaskInline({
   parentTask?: Doc<"todos">;
   projectId?: Id<"projects">;
 }) {
-  const projectId ="k979hvf8gfmftedpk007fnj0pd6wb5jb"
+  const projectId =
     myProjectId ||
     parentTask?.projectId ||
     (GET_STARTED_PROJECT_ID as Id<"projects">);
@@ -80,10 +80,10 @@ export default function AddTaskInline({
   const defaultValues = {
     taskName: "",
     description: "",
-    priority: "1",
+    priority,
     dueDate: new Date(),
-    projectId:"k979hvf8gfmftedpk007fnj0pd6wb5jb",
-    labelId:"k575g3d34g90anp1s279brg2fh6wb7ga",
+    projectId,
+    labelId,
   };
 
   const form = useForm<z.infer<typeof FormSchema>>({

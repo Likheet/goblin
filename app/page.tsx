@@ -23,7 +23,7 @@ export default function LoginForm() {
               className="h-16 w-20 md:h-16 md:w-20"
             />
             <h1 className="text-xl hidden lg:flex font-medium text-gray-950 md:text-3xl">
-              TodoVex
+              Goblin
             </h1>
           </Link>
           <div className="hidden lg:flex w-fit items-center">
@@ -42,7 +42,7 @@ export default function LoginForm() {
               <a
                 className="font-bold"
                 target="_blank"
-                href="https://convex.dev/c/todovex"
+                href="https://convex.dev/"
               >
                 Convex{" "}
               </a>
@@ -109,7 +109,7 @@ export default function LoginForm() {
           <div>
             Powered by{" "}
             <a
-              href="https://convex.dev/c/todovex"
+              href="https://convex.dev/"
               target="_blank"
               className="pr-1 font-bold transition hover:text-black/50"
             >
@@ -128,7 +128,7 @@ export default function LoginForm() {
             <a
               className="group"
               aria-label="Twitter"
-              href="https://twitter.com/kulkarniankita9"
+              href="https://x.com/likheet_shetty"
             >
               <svg
                 aria-hidden="true"
@@ -140,7 +140,7 @@ export default function LoginForm() {
             <a
               className="group"
               aria-label="GitHub"
-              href="https://github.com/kulkarniankita/todoist-clone"
+              href="https://github.com/Likheet/goblin"
             >
               <svg
                 aria-hidden="true"
@@ -152,7 +152,7 @@ export default function LoginForm() {
             <a
               className="group"
               aria-label="GitHub"
-              href="https://github.com/kulkarniankita/todoist-clone"
+              href="https://github.com/Likheet/goblin"
             >
               <svg
                 viewBox="0 0 256 180"

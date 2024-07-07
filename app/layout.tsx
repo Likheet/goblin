@@ -7,7 +7,7 @@ const defaultFont = Noto_Sans_Georgian({ subsets: ["latin"] });
 
 const ORIGIN_URL =
   process.env.NODE === "production"
-    ? "https://todovex.ai"
+    ? "https://goblin-todo.vercel.app"
     : "http://localhost:3000";
 
 export const metadata: Metadata = {

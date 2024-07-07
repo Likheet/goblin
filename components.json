@@ -6,7 +6,6 @@
   "tailwind": {
     "config": "tailwind.config.ts",
     "css": "app/globals.css",
-    "css.customData": [".vscode/tailwind.json"],
     "baseColor": "slate",
     "cssVariables": true,
     "prefix": ""

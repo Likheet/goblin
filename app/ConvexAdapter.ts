@@ -130,7 +130,7 @@ export const ConvexAdapter: Adapter = {
   },
 };
 
-/// Helpers
+// Helpers
 
 function callQuery<Query extends FunctionReference<"query">>(
   query: Query,

@@ -11,7 +11,7 @@ export default function CompletedTodos({
       <>
         <CircleCheckBig />
         <span>+ {totalTodos}</span>
-        <span className="capitalize">completed tasks</span>
+        <span className="capitalize">Completed Tasks</span>
       </>
     </div>
   );

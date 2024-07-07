@@ -30,7 +30,7 @@ export default function MobileNav({
         <SheetTrigger asChild>
           <Button variant="outline" size="icon" className="shrink-0 md:hidden">
             <Menu className="h-5 w-5" />
-            <span className="sr-only">Toggle navigation menu</span>
+            <span className="sr-only">Toggle Navigation Menu</span>
           </Button>
         </SheetTrigger>
         <SheetContent side="left" className="flex flex-col">
